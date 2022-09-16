@@ -6,7 +6,6 @@ import styles from '../styles/Home.module.css'
 import coffeeStoresData from '../data/coffee-stores.json';
 
 export async function getStaticProps(context) {
-  console.log('hi');
   return {
     props: {
       coffeeStores: coffeeStoresData,
